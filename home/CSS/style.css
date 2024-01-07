@@ -1,0 +1,55 @@
+body{
+    background-image: url(../imgs/stars.jpg);
+    background-size: cover;
+}
+
+.container {
+    font-family: sans-serif !important;
+    margin-top: 200px;
+    padding: 50px 20px;
+    height: auto !important;
+    width: 60% !important;
+    border: #610231 none 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+h1 {
+    color: #ffffff !important;
+    font-size: 50px;
+}
+
+.container .contain {
+    width: 97% !important;  
+}
+
+.contain input {
+  width: 100% !important;
+  margin: 10px 0 ;
+  padding: 7px 5px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: white solid 1px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  
+}
+.contain button {
+    width: 100% !important;
+    margin: 10px 0 ;
+    padding: 7px 5px;
+    margin-left: 10px;
+    background-color: transparent;
+    color: #17a2b8;
+    border: #17a2b8 solid 1px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.contain button:hover {
+    background-color: #17a2b8;
+    color: #fff;
+}
+.container p {
+    margin-bottom: 40px;
+}
+.container p a:hover {
+ text-decoration: underline !important;
+}
